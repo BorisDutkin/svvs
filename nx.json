@@ -26,6 +26,7 @@
       "tags": [],
       "implicitDependencies": ["frontend-admin"]
     },
-    "backend-api": { "tags": ["type:app", "scope:backend-api"] }
+    "backend-api": { "tags": ["type:app", "scope:backend-api"] },
+    "ui-component": { "tags": ["type:lib", "scope:ui-lib"] }
   }
 }
