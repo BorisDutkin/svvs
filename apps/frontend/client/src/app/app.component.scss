@@ -1,11 +1,5 @@
 @import 'utils';
 
-.demo {
-  width: vw;
-  margin: 0 auto;
-  padding: 2em;
-  text-align: center;
-  font-size: 5em;
-  background-color: $test-var;
-  color: #fff;
+.test-ff {
+  font-family: $font-open-sans;
 }
