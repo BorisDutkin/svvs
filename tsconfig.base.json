@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@svvs/ui-component": ["libs/ui-component/src/index.ts"]
+      "@svvs/ui-component": ["libs/ui-component/src/index.ts"],
+      "@svvs/shared/data-access/interfaces": [
+        "libs/shared/data-access/interfaces/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
