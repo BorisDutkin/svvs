@@ -1,7 +1,14 @@
 
 {
   "name": "Backend API GraphQL Schema",
-  "schemaPath": "schema.graphql",
+  "schemaPath": "api-app.graphql",
+  "projects": {
+    "api": {
+      "includes": [
+        "./**/*.graphql"
+      ]
+    }
+  },
   "extensions": {
     "endpoints": {
       "Default GraphQL Endpoint": {
