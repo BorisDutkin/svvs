@@ -1,1 +1,1 @@
-export * from './lib/shared-data-access-interfaces.module';
+export { IUser } from './lib/entities/users.interface';
